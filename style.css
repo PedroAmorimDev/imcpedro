@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&family=Work+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inika:wght@400;700&display=swap');
+
+body{
+    background-color: #8891e6;
+}
+
+:root {
+  --azulgoiaba: #6070e9;
+}
+#calculadoradiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+}
+
+#resultado {
+  font-size: 30px;
+  text-align: center;
+  background-color: #6070e9;
+  ;
+  border-radius: 10px;
+  font-family: 'Roboto', bold;
+  color: white;
+ padding: 10px; 
+ max-width: 300px;margin: auto;
+ margin-top: 40px;
+ font-size: 20px;
+ 
+}
+
+.cadastro {
+  background-color: var(--azulgoiaba);
+  border-radius: 20px;
+  height: 250px;
+  width: 200px;
+  justify-content: center;
+  margin: auto;
+  margin-top:50px;
+  padding: 40px;
+}
+ h1{
+    font-size: 20px;
+    font-family: 'Roboto', bold;
+    color: white;
+ }
+
+ label{
+    color: white;
+    font-family: 'Roboto', bold;
+    padding-bottom: 10px;
+    padding-top: 10px;
+ }
+
+ .btn{
+    padding: 5px;
+    margin-top: 30px;
+    background-color: white;
+    border-radius: 10px;
+    font-family: 'Roboto', bold;
+ }
